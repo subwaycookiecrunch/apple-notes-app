@@ -1,0 +1,34 @@
+{
+  "name": "apple-notes-clone",
+  "version": "1.0.0",
+  "description": "A clone of Apple Notes with Google Drive integration",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/apple-notes-clone.git"
+  },
+  "keywords": [
+    "notes",
+    "apple",
+    "google-drive",
+    "electron"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourusername/apple-notes-clone/issues"
+  },
+  "homepage": "https://github.com/yourusername/apple-notes-clone#readme",
+  "dependencies": {
+    "electron": "^22.0.0",
+    "googleapis": "^110.0.0",
+    "sqlite3": "^5.1.4"
+  },
+  "devDependencies": {
+    "electron-builder": "^23.6.0"
+  }
+} 
